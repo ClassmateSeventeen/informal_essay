@@ -1,3 +1,14 @@
+### 一个简单的bert的文本分类代码
+
+数据集选择的THUCNews，自行下载并整理出10w条数据。news_title_dataset.csv链接：https://pan.baidu.com/s/1jok0ohyTVBn2HueZrynKng
+
+提取码：7941
+
+下载预训练模型权重，这里下载的是 chinese_roberta_wwm_ext_pytorch 。bert_model链接: https://pan.baidu.com/s/1I9-I0ukHnDYQMvHM_uFrgA 
+
+提取码: a6ud
+
+
 '''
  Test Accuracy = 0.9736 
 

@@ -10,6 +10,7 @@
 
 
 '''
+
  Test Accuracy = 0.9736 
 
               precision    recall  f1-score   support
@@ -28,4 +29,5 @@
     accuracy                         0.9736     10000
    macro avg     0.9737    0.9736    0.9736     10000
 weighted avg     0.9736    0.9736    0.9736     10000
+
 '''

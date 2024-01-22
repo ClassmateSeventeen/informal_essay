@@ -144,11 +144,11 @@ def plot_results(pil_img, prob, boxes):
 if __name__ == '__main__':
     # 初始化一个模型
     detr = DETRDemo(num_classes=91)
-    pretrained_weights_path = '/root/yunzhi/retrieval/detr_demo-da2a99e9.pth'
+    pretrained_weights_path = './detr_demo-da2a99e9.pth'
     # 加载预训练权重
     pretrained_weights = torch.load(pretrained_weights_path)
     detr.load_state_dict(pretrained_weights)
     detr.eval()
-    im = Image.open('/root/yunzhi/retrieval/000000039769.jpeg')
+    im = Image.open('./000000039769.jpeg')
     scores, boxes = detect(im, detr, transform)
     plot_results(im, scores, boxes)
